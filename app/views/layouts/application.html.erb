@@ -10,6 +10,22 @@
 
 
 <body>
+<div id="logo">
+	<div id="title-text">
+		<p>Projecto Interação Pessoa-Máquina</p>
+
+		<div id="team-text">
+			<p>Nuno Alves - 42224</p>
+			<p>José Raposo - 42224</p>
+			<p>Lucía Rodriguez - 42224</p>
+		</div>
+	</div>
+	
+	<div id="logo-container">
+		<%= image_tag("logo.gif", :alt => "LOGO", :height=> "130" ,:width=>"160")%>
+	</div>
+
+</div>
 <nav>
   <ul>
     <li>
@@ -27,8 +43,9 @@
   </ul>
 </nav>
 <br><br>
+<div id="mainpage">
 <%= yield %>
-
+</div>
 <footer>
 JLN 2014/2015
 </footer>
