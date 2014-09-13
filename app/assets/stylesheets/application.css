@@ -12,6 +12,9 @@
  *= require_tree .
  */
 
+/*==================================================
+ * Body
+ * ===============================================*/
 
 body {
     background-image: url("bg8.png");
@@ -23,6 +26,10 @@ body {
  
 	margin: 0 auto; 
 }
+
+/*==================================================
+ * Default options
+ * ===============================================*/
 
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
  
@@ -40,35 +47,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 }
 
 
- footer {
-
-  bottom: 0px;
-  width: 100%;
-  max-width: 782px;
-  height: 30px;
-  padding: 8px;
-  
-  background: #cdeb8e; /* Old browsers */
- 
-  background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
- 
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
- 
-  background: -webkit-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
- 
-  background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
- 
-  background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C standard, IE10+ */
- 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
- 
-  
-  text-align: center;
-  /*
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-*/
-}
+/*==================================================
+ * Logo Area
+ * ===============================================*/
 
 #logo {
 background-color: #cdeb8e;
@@ -98,6 +79,11 @@ min-height: 170px;
 	font-size: 60%
 
 }
+
+
+/*==================================================
+ * Main page
+ * ===============================================*/
 
 #mainpage {
  
@@ -130,7 +116,7 @@ min-height: 170px;
 
 
 /*==================================================
- * Effect 8
+ * Main page - Shadow effect
  * ===============================================*/
 #mainpage:before, #mainpage:after
 {
@@ -159,6 +145,9 @@ min-height: 170px;
 }
 
 
+/*==================================================
+ * Menu Navegação
+ *================================================*/
 
 #nav-container {
 background-color: transparents;
@@ -208,22 +197,6 @@ nav ul li a {
   display: block;
  
   width: 100%;
- 
-  background: #cdeb8e; /* Old browsers */
- 
-  background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
- 
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
- 
-  background: -webkit-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
- 
-  background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
- 
-  background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C standard, IE10+ */
- 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
- 
-
 
 }
 
@@ -262,6 +235,51 @@ nav ul li a:hover {
 
   }
 
+
+
+/*==================================================
+ * Footer
+ *================================================*/
+
+ footer {
+
+  bottom: 0px;
+  width: 100%;
+  max-width: 782px;
+  height: 30px;
+  padding: 8px;
+  
+  text-align: center;
+  /*
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+*/
+}
+
+
+/*==================================================
+ * Outros
+ * CSS em comum
+ *================================================*/
+
+nav ul li a,
+footer
+{
+background: #cdeb8e; /* Old browsers */
+ 
+  background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
+ 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
+ 
+  background: -webkit-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
+ 
+  background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
+ 
+  background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C standard, IE10+ */
+ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
+ }
+
   /*
 
   nav ul li:first-child a {
@@ -279,3 +297,4 @@ nav ul li:last-child a {
   border-bottom-right-radius: 8px;
  
 }*/
+
