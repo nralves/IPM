@@ -24,25 +24,28 @@
 	<div id="logo-container">
 		<%= image_tag("logo.gif", :alt => "LOGO", :height=> "130" ,:width=>"160")%>
 	</div>
-
 </div>
-<nav>
-  <ul>
-    <li>
-        <a href="#">Home</a>
-    </li>
-    <li>
-        <a href="#">Assignments</a>
-    </li>
-    <li>
-        <a href="#">Reports</a>
-    </li>
-    <li>
-        <a href="#">About us</a>
-    </li>
-  </ul>
-</nav>
-<br><br>
+
+<div id="nav-container">
+	
+	<nav>
+	  <ul>
+	    <li>
+	        <a href="#">Home</a>
+	    </li>
+	    <li>
+	        <a href="#">Assignments</a>
+	    </li>
+	    <li>
+	        <a href="#">Reports</a>
+	    </li>
+	    <li>
+	        <a href="#">About us</a>
+	    </li>
+	  </ul>
+	</nav>
+</div>
+
 <div id="mainpage">
 <%= yield %>
 </div>
