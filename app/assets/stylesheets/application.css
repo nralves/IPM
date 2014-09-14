@@ -117,6 +117,7 @@ min-height: 170px;
  
   width: 100%;
   max-width: 760px;
+  min-height: 500px;
  
   margin:0;
 
@@ -317,6 +318,15 @@ background: #cdeb8e; /* Old browsers */
 
   section p{
  	color: #666666;
+ }
+
+
+
+
+  .img_wrap{
+	margin: 5px;
+	border: solid darkgray 0.2em;
+	background-color: white;
  }
 
   /*
