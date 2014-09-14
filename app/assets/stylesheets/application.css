@@ -123,7 +123,7 @@ min-height: 170px;
 
   padding: 20px 20px;
 
-  background-color: #B8D0DE;
+  background-color: #DEF1FF;
 
 /*
   border-top-left-radius: 8px;
@@ -327,6 +327,10 @@ background: #cdeb8e; /* Old browsers */
 	margin: 5px;
 	border: solid darkgray 0.2em;
 	background-color: white;
+ }
+
+ .bluetxt{
+ 	    color: #0099CC;
  }
 
   /*

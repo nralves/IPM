@@ -32,16 +32,32 @@
 	<nav>
 	  <ul>
 	    <li>
-	        <a href="/">Home</a>
+	    	<% if current_page?(:controller => 'site', :action => 'home') %>
+	    			<a href="/"><span class="bluetxt">Home</span></a>
+	    	<% else %>
+	    			<a href="/">Home</a>
+	    	<%end%>
 	    </li>
 	    <li>
-	        <a href="#">Assignments</a>
+	        <% if current_page?(:controller => 'site', :action => 'assignements') %>
+	    			<a href="assignements"><span class="bluetxt">Assignements</span></a>
+	    	<% else %>
+	    			<a href="assignements">Assignements</a>
+	    	<%end%>
 	    </li>
 	    <li>
-	        <a href="#">Reports</a>
+	        <% if current_page?(:controller => 'site', :action => 'reports') %>
+	    			<a href="reports"><span class="bluetxt">Reports</span></a>
+	    	<% else %>
+	    			<a href="reports">Reports</a>
+	    	<%end%>
 	    </li>
 	    <li>
-	        <a href="site/about">About us</a>
+			<% if current_page?(:controller => 'site', :action => 'about') %>
+	    			<a href="about"><span class="bluetxt">About</span></a>
+	    	<% else %>
+	    			<a href="about">About</a>
+	    	<%end%>
 	    </li>
 	  </ul>
 	</nav>
@@ -51,7 +67,7 @@
 <%= yield %>
 </div>
 <footer>
-JLN 2014/2015
+JNL 2014/2015
 </footer>
 
 </body>

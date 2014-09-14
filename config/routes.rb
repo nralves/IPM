@@ -1,6 +1,13 @@
 IPMSite::Application.routes.draw do
 
   root "site#home"
+
+  get "assignements" => "site#assignements"
+  get 'reports' => "site#reports"
+  get 'about'=> "site#about"
+
+  get "site/assignements"
+  get "site/reports"
   get "site/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
