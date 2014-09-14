@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
 #logo {
 background-color: #cdeb8e;
+background-image: url("grey-washed-wall.png");
 width: 100%;
 margin: 0;
 min-height: 170px;
@@ -60,17 +61,44 @@ min-height: 170px;
 
 #logo-container{
 	padding:15px;
-	float:left;
+	padding-right: 80px;
+	float:right;
 }
 
 #title-text{
-	padding-top:25px;
-	padding-left:15px;
-	padding-right:100px;
-	padding-bottom:15px;
-	float:right;
-	font-size: 200%
+	padding-top:50px;
+	padding-left:30px;
+	padding-right:15px;
+    padding-bottom:15px;
+    float:left;
+    font-size: 200%;
 
+}
+
+.pessoa{
+
+    font-family: 'Pecita'; 
+    font-weight: bold; 
+    font-style: normal; 
+    font-size: 130%;
+    color: #0099CC;
+
+
+}
+
+.maquina{
+
+   font-family: 'Archicoco'; 
+   font-weight: bold; 
+   font-style: normal;
+   color: #666666;
+	
+}
+
+#slogan{
+	font-style: normal;
+	font-size: 50%;
+	text-decoration: underline overline;
 }
 
 #team-text{
@@ -245,7 +273,7 @@ nav ul li a:hover {
 
   bottom: 0px;
   width: 100%;
-  max-width: 782px;
+  max-width: 785px;
   height: 30px;
   padding: 8px;
   
@@ -278,6 +306,17 @@ background: #cdeb8e; /* Old browsers */
   background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C standard, IE10+ */
  
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
+ }
+
+ section h1{
+ 	text-transform: uppercase;
+ 	font-size: 130%;
+ 	color: #0099CC;
+ 	line-height:200%;
+ }
+
+  section p{
+ 	color: #666666;
  }
 
   /*
