@@ -320,6 +320,16 @@ background: #cdeb8e; /* Old browsers */
  	color: #666666;
  }
 
+ section ul{
+ 
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+
+ }
+
 
 
 
@@ -344,8 +354,7 @@ background: #cdeb8e; /* Old browsers */
 
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
-    max-width: 900px;
+    max-width: 500px;
  }
   /*
 
