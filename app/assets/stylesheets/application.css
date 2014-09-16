@@ -335,11 +335,18 @@ background: #cdeb8e; /* Old browsers */
 
  .center{
 
- 	margin-left: auto;
+ 	  margin-left: auto;
     margin-right: auto;
     max-width: 300px;
  }
 
+  .center_long{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    max-width: 900px;
+ }
   /*
 
   nav ul li:first-child a {
